@@ -1,12 +1,12 @@
-﻿body 
-{
-    background-color:lemonchiffon;
+﻿body {
+    background-image: url(фон.jpg);
+    background-attachment: scroll;
 }
 h1
 {
     text-align:center;
     background-color:lightpink;
-    color: brown;
+    color: ghostwhite;
     font-size: 40pt;
     font-family: 'Comic Sans MS';
 }
@@ -15,7 +15,9 @@ h2 {
     font-size: 28pt;
     font-family: 'Comic Sans MS';
     color: black;
-    word-spacing: 600px;
+    word-spacing: 450px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 p {
     padding-left:50px;
@@ -23,7 +25,31 @@ p {
     font-family: 'Comic Sans MS';
     color: black;
 }
+.p span {
+    display: inline;
+    background-color: #FE8020;
+    box-shadow: -10px 0 0 #FE8020, 10px 0 0 #FE8020;
+    padding: 1px 0;
+    color: #FFFFFF;
+}
 p1 {
+    padding-left: 50px;
+    font-size: 20pt;
+    font-family: 'Comic Sans MS';
+    color: black;
+}
+.p1 span {
+    display: inline;
+    background-color: #FE8020;
+    box-shadow: -10px 0 0 #FE8020, 10px 0 0 #FE8020;
+    padding: 1px 0;
+    color: #FFFFFF;
+}
+img {
+    margin-right: 30px;
+}
+ul {
+    padding-left: 90px;
     font-size: 20pt;
     font-family: 'Comic Sans MS';
     color: black;
